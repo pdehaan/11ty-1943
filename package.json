@@ -1,0 +1,34 @@
+{
+  "name": "11ty-1943",
+  "description": "Retrieve content from JSON Single File Collection",
+  "version": "1.0.0",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-1943/issues"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "devDependencies": {},
+  "eleventyConfig": {
+    "dir": {
+      "input": "src",
+      "output": "dist",
+      "includes": "_includes",
+      "layouts": "_layouts",
+      "data": "_data"
+    }
+  },
+  "homepage": "https://github.com/pdehaan/11ty-1943#readme",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-1943.git"
+  },
+  "scripts": {
+    "build": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

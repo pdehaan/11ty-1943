@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "name": "HOME",
+      "link": "/",
+      "subitems": [
+        { "name": "Quem sou", "link": "/#quemsou" },
+        { "name": "Cirriculum Vitae", "link": "/#CV" },
+        { "name": "Áreas de Conhecimento", "link": "/#areas-de-conhecimento" }
+      ]
+    },
+    { "name": "Portfolio", "link": "/portfolio/" },
+    { "name": "Fale Comigo", "link": "/fale-comigo/" },
+    { "name": "Blog", "link": "/blog/" }
+  ]
+}
